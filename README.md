@@ -1,3 +1,9 @@
+This is a completed challenge from Frontendmentor.io
+
+You can see my final solution here: https://jsweeney-social-proof-section.netlify.app/
+
+Feel free to fork this repository!
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
