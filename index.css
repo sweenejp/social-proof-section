@@ -146,8 +146,7 @@ ul {
 .rating-stars {
   display: flex;
   gap: .5em;
-  width: fit-content;
-  margin: auto;
+  margin: auto 0;
 }
 
 .rating-body {
@@ -197,7 +196,7 @@ ul {
 @media screen and (min-width: 1420px) {
   main {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(300px, 30vh) minmax(300px, 35vh);
+    grid-template-rows: minmax(px, 30vh) minmax(300px, 35vh);
     grid-template-areas: 
     "intro rating"
     "testimonial testimonial";
@@ -223,6 +222,8 @@ ul {
 
   .rating-card {
     margin: 0;
+    display: flex;
+    justify-content: space-around;
   }
 
   .rc2 {
@@ -232,11 +233,6 @@ ul {
   .rc3 {
     margin: auto;
     margin-right: 0;
-  }
-
-  .rating-card {
-    display: flex;
-    justify-content: space-evenly;
   }
 
   .rating-body {
@@ -249,7 +245,7 @@ ul {
 
   .testimonial-section ul {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
   }
 
