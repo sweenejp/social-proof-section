@@ -146,7 +146,8 @@ ul {
 .rating-stars {
   display: flex;
   gap: .5em;
-  margin: auto 0;
+  width: fit-content;
+  margin: auto;
 }
 
 .rating-body {
@@ -196,7 +197,7 @@ ul {
 @media screen and (min-width: 1420px) {
   main {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(px, 30vh) minmax(300px, 35vh);
+    grid-template-rows: minmax(300px, 30vh) minmax(300px, 35vh);
     grid-template-areas: 
     "intro rating"
     "testimonial testimonial";
@@ -239,13 +240,18 @@ ul {
     margin: 0;
   }
 
+  .rating-stars {
+    width: initial;
+    margin: auto 0;
+  }
+
   .testimonial-section {
     grid-area: testimonial;
   }
 
   .testimonial-section ul {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
   }
 
