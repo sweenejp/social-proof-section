@@ -121,7 +121,7 @@ main {
 }
 
 .intro-heading {
-  width: 10ch;
+  width: 11ch;
   margin: auto;
 }
 
@@ -139,6 +139,7 @@ ul {
   border-radius: 10px;
   padding: 1em;
   max-width: 450px;
+  height: 79px;
   margin: auto;
 }
 
@@ -151,6 +152,7 @@ ul {
 
 .rating-body {
   margin: 1em 0 0 0;
+  align-self: center;
 }
 
 .testimonial-card {
@@ -195,7 +197,7 @@ ul {
 @media screen and (min-width: 1420px) {
   main {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(250px, 30vh) minmax(300px, 35vh);
+    grid-template-rows: minmax(300px, 30vh) minmax(300px, 35vh);
     grid-template-areas: 
     "intro rating"
     "testimonial testimonial";
