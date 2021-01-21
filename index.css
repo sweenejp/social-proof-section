@@ -183,14 +183,14 @@ ul {
   margin: 0;
 }
 
-@media screen and (min-width: 1306px) {
+@media screen and (min-width: 1411px) {
   main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(300px, 35vh) minmax(300px, 35vh);
     grid-template-areas: 
     "intro rating"
     "testimonial testimonial";
-    padding: 5em;
+    padding: 8em;
 
   }
 
@@ -244,8 +244,4 @@ ul {
   .tc3 {
     margin-bottom: 0;
   }
-
-
-
-
-
+}
