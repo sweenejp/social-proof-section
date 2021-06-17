@@ -195,6 +195,15 @@ ul {
   margin: 0;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1em;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 1220px) {
   main {
     grid-template-columns: 1fr 1fr;
